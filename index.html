@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample Title</title>
+	<link rel="icon"  type="text/css" href="profile.png"/>
+	<style type="text/css">
+		
+		#nani{
+			background: red;
+		}
+		body{
+			background: #04a3fb;
+
+		}
+		.p{
+			background: yellow;
+		}
+
+
+		div > section > p{
+			color: orange;
+		}
+		div p{
+			color: orange;
+		}
+		section+p{color: red;}
+		section~p{color: white;}
+
+
+
+
+		.parent{
+			display: flex;
+			flex-direction: column-reverse;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+		}
+		.child{
+			border: 1px inset red; 
+			width: 30%;
+			padding: 1%;
+			margin: 1%;
+		}
+
+	</style>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>  
+</head>
+<body>
+	inline
+	<p>అందరికీ నమస్కారం నేను మీ నితీష్</p>
+	<span>span element 1</span>
+	<span>span element 2</span>
+	<img src="profile.png" alt="user" width="500px" /><br>
+	block
+	<h1>heading 1</h1>
+	<h2>heading 2</h2>
+	<table><caption>table 1</caption></table>
+	<table><caption>table 2</caption></table>
+	<p>sample paragraph</p>
+	<p>sample paragraph 2</p>
+	<header></header>
+	<main>
+		<nav></nav>
+		<section></section>
+		<article></article>
+		<aside></aside>
+	</main>
+	<footer></footer>
+
+
+
+	<!--1.basic selectors 
+		id(#),class(.),element(<element></element>>),universal(*)
+	2.relational selectors
+		decendant combiner(>),childcombiner(  ),adjacent sibling selectors(+),general sibling selector(~),atribute selectors
+	3.pseudo classes
+-->
+<p id="nani">Naga Nitheesh Kotu</p>
+<h2 id="nani">NANI</h2>
+<p class="p">Naga Nitheesh Kotu</p>
+<h2 class="p">NANI</h2>
+
+<div>
+	<section>
+		section1
+		<p>paragraph</p>
+	</section>
+	<section>section2</section>
+	<p>paragraph siblling</p>
+	<p>para sib 1</p>
+	<p>para sib 2</p>
+</div>
+
+<section class="parent">
+	<article align="center" class="child">A</article>
+	<article align="center" class="child">B</article>
+	<article class="child">C</article>
+	<article class="child">D</article>
+</section>
+
+</body>
+</html>

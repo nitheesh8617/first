@@ -1,0 +1,13 @@
+ctrl shift del to delete catche data
+device independent pixels(zooming level),hardware pixels
+rel relation
+href head referance for providing source
+inline block level
+semantic elements : header..,main:for content
+
+selectors:
+1.basic selectors 
+		id(#),class(.),element(<element></element>>),universal(*)
+	2.relational selectors
+		decendant combiner(>),childcombiner(  ),adjacent sibling selectors(+),general sibling selector(~),attribute selector
+	3.pseudo classes
